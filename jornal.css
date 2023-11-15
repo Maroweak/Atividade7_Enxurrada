@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+}
+
+
+
+header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(21, 192, 135);
+    width: 100%;
+   
+}
+
+
+@keyframes move {
+  
+  0% {transform: translateX(0);  color: green; transform: scale(1.5);}
+  25%{transform: translateX(-50px); color: red; }
+  50% {transform: translateX(50px);  color: orange;}
+  100% {transform: translateX(0); color: blue; transform: scale(1.5);}
+  
+}
+
+#titulo:hover{
+    animation: move 1s linear infinite;
+}
+
+a
+{
+    text-decoration: none;
+    margin: 40px;
+    color: black;
+    transition: 0.2s;
+}
+
+a:visited{
+    color: rgb(240, 0, 40);
+}
+
+a:hover{
+    color: rgb(209, 243, 16);
+}
+
+article{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
